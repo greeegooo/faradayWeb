@@ -52,7 +52,10 @@ a{
 	text-decoration: none;
 }
 .container{
+<<<<<<< HEAD
 	max-width: 1200px;
+=======
+>>>>>>> c63cd3b9881298b4b63d8ecc6dd8fce892d99011
 	padding: 50px;
 	font-family: 'Lato', sans-serif;
 }
@@ -99,15 +102,23 @@ header{
 	}
 	.aside-nav{
 		width: 20%;
+<<<<<<< HEAD
 		float: left;
 		li{
 			margin: 20px 0;
+=======
+		position: relative;
+		top: -100px;
+		li{
+			margin: 15px 0;
+>>>>>>> c63cd3b9881298b4b63d8ecc6dd8fce892d99011
 			ul{
 				margin-left: 15px;
 			}
 		}
 	}
 	.sub-container{
+<<<<<<< HEAD
 		width: 80%;
 		float: right;
 		.main-image, .classics, .popular{
@@ -148,4 +159,14 @@ header{
 }
 footer{
 	clear: both;
+=======
+		width: 79%;
+		.main-image{
+			background-image: url("../img/0.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			padding-top: 380px;
+		}
+	}
+>>>>>>> c63cd3b9881298b4b63d8ecc6dd8fce892d99011
 }

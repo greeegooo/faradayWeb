@@ -50,7 +50,10 @@ a {
   text-decoration: none; }
 
 .container {
+<<<<<<< HEAD
   max-width: 1200px;
+=======
+>>>>>>> c63cd3b9881298b4b63d8ecc6dd8fce892d99011
   padding: 50px;
   font-family: 'Lato', sans-serif; }
 
@@ -87,6 +90,7 @@ header {
     display: inline-block; }
   .main .aside-nav {
     width: 20%;
+<<<<<<< HEAD
     float: left; }
     .main .aside-nav li {
       margin: 20px 0; }
@@ -125,5 +129,20 @@ header {
 
 footer {
   clear: both; }
+=======
+    position: relative;
+    top: -100px; }
+    .main .aside-nav li {
+      margin: 15px 0; }
+      .main .aside-nav li ul {
+        margin-left: 15px; }
+  .main .sub-container {
+    width: 79%; }
+    .main .sub-container .main-image {
+      background-image: url("../img/0.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-top: 380px; }
+>>>>>>> c63cd3b9881298b4b63d8ecc6dd8fce892d99011
 
 /*# sourceMappingURL=style.css.map */
